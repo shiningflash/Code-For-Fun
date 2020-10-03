@@ -4,7 +4,7 @@
 from PIL import Image
 import pytesseract as tess
 
-img = Image.open("b.png")
+img = Image.open("1.jpg")
 str = tess.image_to_string(img, lang="eng")
 
 print(str)
