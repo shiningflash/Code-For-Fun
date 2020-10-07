@@ -52,10 +52,13 @@ if __name__ == "__main__":
     # print(tess.image_to_string(img))
 
     """ detecting characters """ 
-    detectChar(img)
+    # detectChar(img)
 
     """ detecting words """
     # detectWord(img)
+
+    str = tess.image_to_string(img)
+    print(str)
     
 
 showImage(img)
