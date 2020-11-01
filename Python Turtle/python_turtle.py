@@ -76,7 +76,7 @@ def draw_traingle():
         trudy.left(angle)
 
 if __name__ == "__main__":
-    screen = t=turtle.Screen()
+    screen = turtle.Screen()
     screen.bgcolor('white')
     draw_rectangle()
     draw_shape1()
